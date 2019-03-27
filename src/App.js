@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import UserList from "./containers/UserList";
+import UserDetail from "./containers/UserDetail";
 
 import "./style.css";
 
@@ -11,6 +12,7 @@ class App extends Component {
         <UserList />
         <hr />
         <h1>Use details:</h1>
+        <UserDetail />
       </div>
     );
   }

@@ -1,5 +1,6 @@
 import { combineReducers } from "redux";
 import UserReducer from "./reducer-users";
+import ActiveUserReducer from "./reducer-active-user";
 
 // import ActiveUserReducer from './reducer-active-user';
 
@@ -9,7 +10,9 @@ import UserReducer from "./reducer-users";
  * */
 
 const allReducers = combineReducers({
-  users: UserReducer
+  users: UserReducer,
+  activeUser: ActiveUserReducer
+
   // activeUser: ActiveUserReducer
 });
 
